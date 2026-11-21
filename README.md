@@ -1,6 +1,6 @@
 # Web Programming — Course Projects
 
-[![Assignment 01 · CI](https://github.com/jhon-avilat/web-programming-projects/actions/workflows/assignment-01-ci.yml/badge.svg)](https://github.com/jhon-avilat/web-programming-projects/actions/workflows/assignment-01-ci.yml)
+[![Assignment 01 · CI](https://github.com/jhon-avila135/web-programming-projects/actions/workflows/assignment-01-ci.yml/badge.svg)](https://github.com/jhon-avila135/web-programming-projects/actions/workflows/assignment-01-ci.yml)
 
 Monorepo with all the projects of the **Web Programming** course (UCE).
 Every assignment lives in its own folder under [`assignments/`](./assignments/) and can be built, tested and deployed on its own.
@@ -9,7 +9,7 @@ Every assignment lives in its own folder under [`assignments/`](./assignments/) 
 
 | # | Folder | What it is | Stack | Status |
 |---|--------|-----------|-------|--------|
-| 01 | [`assignments/01-product-catalog`](./assignments/01-product-catalog/) | Product CRUD + REST API + instant-search catalog (Page 1) and Rick and Morty page (Page 2) | Spring Boot 4, Thymeleaf, PostgreSQL, Docker | [![CI](https://github.com/jhon-avilat/web-programming-projects/actions/workflows/assignment-01-ci.yml/badge.svg)](https://github.com/jhon-avilat/web-programming-projects/actions/workflows/assignment-01-ci.yml) |
+| 01 | [`assignments/01-product-catalog`](./assignments/01-product-catalog/) | Product CRUD + REST API + instant-search catalog (Page 1) and Rick and Morty page (Page 2) | Spring Boot 4, Thymeleaf, PostgreSQL, Docker | [![CI](https://github.com/jhon-avila135/web-programming-projects/actions/workflows/assignment-01-ci.yml/badge.svg)](https://github.com/jhon-avila135/web-programming-projects/actions/workflows/assignment-01-ci.yml) |
 
 ## Repository layout
 
