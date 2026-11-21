@@ -26,7 +26,7 @@ GitHub (main) ──► GitHub Actions "Deploy to EC2" (manual) ──SSH──�
 
 ```bash
 # only the first time: clone the monorepo in the home folder
-git clone https://github.com/jhon-avilat/web-programming-projects.git
+git clone https://github.com/jhon-avila135/web-programming-projects.git
 cd web-programming-projects/assignments/01-product-catalog
 cp .env.example .env      # put the real DB_PASSWORD (the same one Postgres already uses)
 docker compose up -d --build

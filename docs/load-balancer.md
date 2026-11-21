@@ -64,7 +64,7 @@ That's why the rule is: **create the stack for the demo, delete it afterwards.**
 Open **CloudShell** in the AWS console (free, it already has the AWS CLI) and run:
 
 ```bash
-curl -sSO https://raw.githubusercontent.com/jhon-avilat/web-programming-projects/main/infra/alb.yml
+curl -sSO https://raw.githubusercontent.com/jhon-avila135/web-programming-projects/main/infra/alb.yml
 aws cloudformation deploy --stack-name progweb-alb --template-file alb.yml \
   --parameter-overrides AppNodeAmiId=ami-xxxxxxxx SshCidr=$(curl -s https://checkip.amazonaws.com)/32
 aws cloudformation describe-stacks --stack-name progweb-alb --query "Stacks[0].Outputs" --output table
